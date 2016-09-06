@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>移动端字体</title>
+</head>
+<body>
+    <!--移动端的字体的单位的显示问题-->
+    <!--安卓的字体单位-->
+    <!--px(像素)-->
+    <!--in(英寸)-->
+    <!--mm(毫米)-->
+    <!--pt(磅)-->
+    <!--dp(与密度无关的像素)-->
+    <!--dip(与dp相同)-->
+    <!--sp(与刻度无关的像素)-->
+    <style>
+        .f1{
+            font-size: 16px;
+        }
+        .f2{
+            font-size: 0.05in;/*16/300*/
+        }
+        .f3{
+            font-size: 5.6mm;/*0.35*16*/
+        }
+        .f4{
+            font-size: 12pt;/*16/1.33*/
+        }
+        .f5{
+            font-size: 16dp;
+        }
+        .f6{
+            font-size: 16dip;
+        }
+        .f7{
+            font-size: 16sp;
+        }
+    </style>
+    <div class="box">
+        <ul>
+            <li class="item">px: <p class="f1">以px为单位的字体</p></li>
+            <li class="item">in: <p class="f2">以in为单位的字体</p></li>
+            <li class="item">mm: <p class="f3">以mm为单位的字体</p></li>
+            <li class="item">pt: <p class="f4">以pt为单位的字体</p></li>
+            <li class="item">dp: <p class="f5">以dp为单位的字体</p></li>
+            <li class="item">dip: <p class="f6">以dip为单位的字体</p></li>
+            <li class="item">sp: <p class="f7">以sp为单位的字体</p></li>
+        </ul>
+    </div>
+</body>
+</html>

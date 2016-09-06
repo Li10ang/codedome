@@ -1,0 +1,19 @@
+{
+  "name": "codedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li10ang/codedome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Li10ang/codedome/issues"
+  },
+  "homepage": "https://github.com/Li10ang/codedome#readme"
+}
